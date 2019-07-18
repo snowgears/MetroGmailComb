@@ -99,7 +99,7 @@ public class MetroReceipt implements Comparable<MetroReceipt>{
         return obj;
     }
 
-    public int compareTo(MetroReceipt purchase) {
-        return this.getDate().compareTo(purchase.getDate());
+    public int compareTo(MetroReceipt receipt) {
+        return this.getDate().compareTo(receipt.getDate());
     }
 }
